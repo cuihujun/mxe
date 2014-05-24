@@ -1,0 +1,11 @@
+prefix=/Users/aaa/mxe/usr/i686-pc-mingw32
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Pixman
+Description: The pixman library (version 1)
+Version: 0.29.4
+Cflags: -I${includedir}/pixman-1
+Libs: -L${libdir} -lpixman-1
+
